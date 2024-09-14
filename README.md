@@ -14,13 +14,6 @@
 - 用户点击 "不是" 显示：“别害怕，继续吧！”
 - 恶搞弹窗永远无法关闭，直到手动退出。
 
-## 安装步骤
-
-1. 克隆此项目：
-   ```bash
-   git clone https://github.com/yourusername/tkinter-popup-prank.git
-
----
 
 ### 详细说明：
 
