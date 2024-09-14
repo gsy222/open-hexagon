@@ -9,12 +9,11 @@ def popup():
     result = messagebox.askquestion("叫我一声爸")  # 显示“是”或“不是”
     
     if result == 'yes':  # 用户选择 "是"
-        messagebox.showinfo("哎", "乖")  # 显示 "bye bye"
-        root.quit()  # 退出程序
+        messagebox.showinfo("你选择了‘是’", "真乖")  # 显示一个新消息
     else:  # 用户选择 "不是"
-        messagebox.showinfo("真勇敢！")  # 显示另一个消息
+        messagebox.showinfo("你选择了‘不是’", "好吧")  # 显示另一个消息
     
-    messagebox.showinfo("来吧！")  # 再次显示原来的消息
+    messagebox.showinfo("惊喜！", "你永远无法关闭我！哈哈哈")  # 再次显示原来的消息
 
 root = tk.Tk()
 root.withdraw()  # 隐藏主窗口
