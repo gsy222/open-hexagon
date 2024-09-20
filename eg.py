@@ -9,10 +9,10 @@ def popup():
     result = messagebox.askquestion("惊喜！", "叫我一声爸")  # 显示“是”或“不是”
     
     if result == 'yes':  # 用户选择 "是"
-        messagebox.showinfo("你选择了‘是’", "哎乖")  # 显示一个新消息
+        messagebox.showinfo("儿子", "哎乖")  # 显示一个新消息
         roop.quit(10)  #退出程序
     else:  # 用户选择 "不是"
-        messagebox.showinfo("你选择了‘不是’", "好吧！")  # 显示另一个消息
+        messagebox.showinfo("可是", "好吧！")  # 显示另一个消息
     
     messagebox.showinfo("惊喜！", "好吧！哈哈哈")  # 再次显示原来的消息
 
