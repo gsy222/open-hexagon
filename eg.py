@@ -10,7 +10,7 @@ def popup():
     
     if result == 'yes':  # 用户选择 "是"
         messagebox.showinfo("", "哎乖")  # 显示一个新消息
-        roop.quit(10)  #退出程序
+        quit.now(10)  #退出程序
     else:  # 用户选择 "不是"
         messagebox.showinfo("", "好吧！")  # 显示另一个消息
     
